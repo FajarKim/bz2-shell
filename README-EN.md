@@ -42,8 +42,8 @@ $ bash install.sh
 ```
 ## Linux
 ### Step 1
-- `$ pkg update -y && pkg upgrade -y`
-- `$ pkg install bzip2 lzip git -y`
+- `$ apt update -y && apt upgrade -y`
+- `$ apt install bzip2 lzip git -y`
 - `$ git clone https://github.com/FajarKim/bz2-shell`
 - `$ cd bz2-shell/tools/Linux`
 - `$ ./install.sh` atau `$ bash install.sh`
