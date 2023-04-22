@@ -19,7 +19,7 @@ BZip2 Shell Exec est un outil qui peut être utilisé pour compresser les chaîn
 
 - [🇬🇧 English (UK)](https://github.com/FajarKim/bz2-shell/blob/master/README-KR.md)
 - [🇮🇩 Indonesian](https://github.com/FajarKim/bz2-shell)
-- [🇰🇷 Korean](https://github.com/FajarKim/bz2-shell/blob/master/README-FR.md)
+- [🇰🇷 Korean](https://github.com/FajarKim/bz2-shell/blob/master/README-KR.md)
 </details>
 
 # Instructions d'installation
@@ -145,4 +145,12 @@ N'hésitez pas à me contacter ci-dessous si vous avez des problèmes ou des que
     <a href="https://www.twitter.com/fajarkim_"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/twitter_logo.png" alt="Twitter" width="35"></a>
     &ensp;
     <a href="mailto:fajarrkim@gmail.com"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/gmail_logo.png" alt="Gmail" width="35"></a>
+</div>
+
+# Faire un Don
+Pour les personnes aimables qui veulent faire un don pour le développement et la progression de ce compte, veuillez cliquer sur le lien ci-dessous! Je vous remercie beaucoup pour ceux qui veulent faire un don 😊😊😊
+<div align="left">
+    <a href="https://github.com/sponsors/FajarKim/"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/donate_github.png" alt="GitHub Sponsor" width="165"></a>
+    <a href="https://paypal.me/agusbirawan/"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/donate_paypal.png" alt="PayPal Donate" width="165"></a>
+    <a href="https://trakteer.id/FajarKim/"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/donate_trakteer.png" alt="Trakteer.id Donate" width="165"></a>
 </div>
