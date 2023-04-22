@@ -27,7 +27,6 @@
 set -e
 
 # Make sure important variables exist if not already defined
-#
 # $USER is defined by login(1) which is not always executed (e.g. containers)
 # POSIX: https://pubs.opengroup.org/onlinepubs/009695299/utilities/id.html
 USER=${USER:-$(id -u -n)}
