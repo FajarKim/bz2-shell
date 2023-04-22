@@ -8,7 +8,7 @@
     <a href="https://github.com/FajarKim/bz2-shell/watchers/"><img src="https://img.shields.io/github/watchers/FajarKim/bz2-shell?label=Watch&style=plastic&color=1fe1f" alt="Whatchers"></a>
     <a href="https://github.com/FajarKim/bz2-shell/pulls?q=is%3Aopen+is%3Apr/"><img src="https://img.shields.io/github/issues-pr/FajarKim/bz2-shell?&label=Pull%20requests&style=plastic&color=971dff" alt="Pull-requests"></a>
     <a href="https://github.com/FajarKim/bz2-shell/pulls?q=is%3Apr+is%3Aclosed/"><img src="https://img.shields.io/github/issues-pr-closed/FajarKim/bz2-shell?&label=Pull%20requests&style=plastic&color=orange" alt="Pull-requests"></a>
-    <a href=""><img src="https://img.shields.io/github/license/FajarKim/bz2-shell?label=License&style=plastic&color=01ffc4&logo=gnu" alt="License"></a>
+    <a href="https://github.com/FajarKim/bz2-shell/blob/master/LICENSE"><img src="https://img.shields.io/github/license/FajarKim/bz2-shell?label=License&style=plastic&color=01ffc4&logo=gnu" alt="License"></a>
 </div>
 
 # BZip2 Shell Exec
