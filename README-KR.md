@@ -134,7 +134,7 @@ $ bzsh.sh --type-shell bash --file FILE1 FILE2 FILE3...
 # 연락처
 이 도구와 관련하여 문제나 궁금한 점이 있으면 아래 연락처로 문의해 주세요. 저를 팔로우하는 것을 잊지 마세요!
 <div align="center">
-    <a href="https://www.facebook.com/profile.php?id=100071979099290"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/facebook_logo.png" alt="Facebook" width="35"></a>
+    <a href="https://www.facebook.com/fajarrkim"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/facebook_logo.png" alt="Facebook" width="35"></a>
     &ensp;
     <a href="https://www.instagram.com/fajarkim_"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/instagram_logo.png" alt="Instagram" width="35"></a>
     &ensp;
