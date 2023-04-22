@@ -12,29 +12,29 @@
 </div>
 
 # BZip2 Shell Exec
-BZip2 Shell Exec adalah sebuah alat yang bisa digunakan untuk mengompresi string skrip beberapa jenis shell 🔐 seperti Bourne Shell (sh), Bourne Again Shell (bash), Z Shell (zsh), Korn Shell (ksh), dan MirBSD Korn Shell (mksh) ke dalam format BZip2.
+BZip2 Shell Exec은 Bourne Shell (sh), Bourne Again Shell (bash), Z Shell (zsh), Korn Shell (ksh),  그리고 MirBSD Korn Shell (mksh) 등 여러 셸 유형 🔐의 스크립트 문자열을 BZip2 포맷으로 압축하는 데 사용할 수 있는 도구입니다.
 
 <details>
-<summary>Terjemahan</summary>
+<summary>번역</summary>
 
 - [🇬🇧 English (UK)](https://github.com/FajarKim/bz2-shell/blob/master/README-EN.md)
 - [🇫🇷 France](https://github.com/FajarKim/bz2-shell/blob/master/README-FR.md)
-- [🇰🇷 Korean](https://github.com/FajarKim/bz2-shell/blob/master/README-KR.md)
+- [🇮🇩 Indonesian](https://github.com/FajarKim/bz2-shell)
 </details>
 
-# Petunjuk Penginstallan
+# 설치 지침
 ## Termux
-### Cara 1
+### 방법 1
 - `$ pkg update -y && pkg upgrade -y`
 - `$ pkg install bzip2 lzma git -y`
 - `$ git clone https://github.com/FajarKim/bz2-shell`
 - `$ cd bz2-shell/tools/Termux`
-- `$ ./install.sh` atau `$ bash install.sh`
-### Cara 2
+- `$ ./install.sh` 또는 `$ bash install.sh`
+### 방법 2
 <table>
     <tr>
-        <td><div align="center"><b>Metode</b></div></td>
-        <td><div align="center"><b>Perintah</b></div></td>
+        <td><div align="center"><b>메소드</b></div></td>
+        <td><div align="center"><b>명령어</b></div></td>
     </tr>
     <tr>
         <td><div align="center"><b>curl</b></div></td>
@@ -50,23 +50,23 @@ BZip2 Shell Exec adalah sebuah alat yang bisa digunakan untuk mengompresi string
     </tr>
 <table>
 
-Sebagai alternatif, Anda dapat mengunduh skrip `install.sh` terlebih dahulu dan menjalankannya setelah menginstalnya:
+또는 먼저 `install.sh` 스크립트를 다운로드한 후 실행할 수 있습니다:
 ```text
 $ wget https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Termux/install.sh
 $ bash install.sh
 ```
 ## Linux
-### Cara 1
+### 방법 1
 - `$ apt update -y && apt upgrade -y`
 - `$ apt install bzip2 lzma git -y`
 - `$ git clone https://github.com/FajarKim/bz2-shell`
 - `$ cd bz2-shell/tools/Linux`
-- `$ ./install.sh` atau `$ bash install.sh`
-### Cara 2
+- `$ ./install.sh` 또는 `$ bash install.sh`
+### 방법 2
 <table>
     <tr>
-        <td><div align="center"><b>Metode</b></div></td>
-        <td><div align="center"><b>Perintah</b></div></td>
+        <td><div align="center"><b>메소드</b></div></td>
+        <td><div align="center"><b>명령어</b></div></td>
     </tr>
     <tr>
         <td><div align="center"><b>curl</b></div></td>
@@ -82,57 +82,57 @@ $ bash install.sh
     </tr>
 <table>
 
-Sebagai alternatif, Anda dapat mengunduh skrip `install.sh` terlebih dahulu dan menjalankannya setelah menginstalnya:
+또는 먼저 `install.sh` 스크립트를 다운로드한 후 실행할 수 있습니다:
 ```text
 $ wget https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Linux/install.sh
 $ bash install.sh
 ```
 
-# Petunjuk Penggunaan
-Perintah yang didukung:
+# 사용 지침
+지원되는 명령어:
 <table>
     <tr>
-        <td><div align="center"><b>Perintah</b></div></td>
-        <td><div align="center"><b>Keterangan</b></div></td>
+        <td><div align="center"><b>명령어</b></div></td>
+        <td><div align="center"><b>설명</b></div></td>
     </tr>
     <tr>
-        <td><div align="left"><code>-h</code> atau <code>--help</code></div></td>
-        <td><div align="left">Menampilkan bantuan untuk alat ini</div></td>
+        <td><div align="left"><code>-h</code> 또는 <code>--help</code></div></td>
+        <td><div align="left">이 도움말 표시</div></td>
     </tr>
     <tr>
-        <td><div align="left"><code>-v</code> atau <code>--version</code></div></td>
-        <td><div align="left">Informasi versi keluaran terbaru</div></td>
+        <td><div align="left"><code>-v</code> 또는 <code>--version</code></div></td>
+        <td><div align="left">출력 버전 정보</div></td>
     </tr>
     <tr>
-        <td><div align="left"><code>-t</code> atau <code>--type-shell</code></div></td>
-        <td><div align="left">Pilih jenis shell (sh, bash, zsh, ksh, atau mksh)</div></td>
+        <td><div align="left"><code>-t</code> 또는 <code>--type-shell</code></div></td>
+        <td><div align="left">셸 유형 선택 (sh, bash, zsh, ksh, 또는 mksh)</div></td>
     </tr>
     <tr>
-        <td><div align="left"><code>-f</code> atau <code>--file</code></div></td>
-        <td><div align="left">Kompres setiap FILE sebagai gantinya</div></td>
+        <td><div align="left"><code>-f</code> 또는 <code>--file</code></div></td>
+        <td><div align="left">대신 각 FILE 을 압축합니다</div></td>
     </tr>
 <table>
 
-Cara menjalankan alat ini:
-### Contoh 1
+이 도구를 실행하는 방법:
+### 예제 1
 ```text
 $ bzsh.sh -t bash -f FILE
 ```
-atau
+또는
 ```text
 $ bzsh.sh --type-shell bash --file FILE
 ```
-### Contoh 2
+### 예제 2
 ```text
 $ bzsh.sh -t bash -f FILE1 FILE2 FILE3...
 ```
-atau
+또는
 ```text
 $ bzsh.sh --type-shell bash --file FILE1 FILE2 FILE3...
 ```
 
-# Kontak
-Silahkan hubungi kontak saya dibawah ini jika ada masalah atau pertanyaan mengenai alat ini. Jangan lupa untuk follow ya!
+# 연락처
+이 도구와 관련하여 문제나 궁금한 점이 있으면 아래 연락처로 문의해 주세요. 저를 팔로우하는 것을 잊지 마세요!
 <div align="center">
     <a href="https://www.facebook.com/profile.php?id=100071979099290"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/facebook_logo.png" alt="Facebook" width="35"></a>
     &ensp;
