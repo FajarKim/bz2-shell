@@ -26,7 +26,7 @@ BZip2 Shell Exec est un outil qui peut être utilisé pour compresser les chaîn
 ## Termux
 ### Méthode 1
 - `$ pkg update -y && pkg upgrade -y`
-- `$ pkg install bzip2 lzma git -y`
+- `$ pkg install bzip2 xz-utils git -y`
 - `$ git clone https://github.com/FajarKim/bz2-shell`
 - `$ cd bz2-shell/tools/Termux`
 - `$ ./install.sh` ou `$ bash install.sh`
@@ -58,7 +58,7 @@ $ bash install.sh
 ## Linux
 ### Méthode 1
 - `$ apt update -y && apt upgrade -y`
-- `$ apt install bzip2 lzma git -y`
+- `$ apt install bzip2 xz-utils git -y`
 - `$ git clone https://github.com/FajarKim/bz2-shell`
 - `$ cd bz2-shell/tools/Linux`
 - `$ ./install.sh` ou `$ bash install.sh`
@@ -130,6 +130,8 @@ ou
 ```text
 $ bzsh.sh --type-shell bash --file FILE1 FILE2 FILE3...
 ```
+### Remarques
+Plus il y a de lignes dans un fichier, plus il faudra de temps pour le crypter.
 
 # Contacter
 N'hésitez pas à me contacter ci-dessous si vous avez des problèmes ou des questions concernant cet outil. N'oubliez pas de me suivre!
@@ -150,7 +152,7 @@ N'hésitez pas à me contacter ci-dessous si vous avez des problèmes ou des que
 # Faire un Don
 Pour les personnes aimables qui veulent faire un don pour le développement et la progression de ce compte, veuillez cliquer sur le lien ci-dessous! Je vous remercie beaucoup pour ceux qui veulent faire un don 😊😊😊
 <div align="left">
-    <a href="https://github.com/sponsors/FajarKim/"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/donate_github.png" alt="GitHub Sponsor" width="165"></a>
-    <a href="https://paypal.me/agusbirawan/"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/donate_paypal.png" alt="PayPal Donate" width="165"></a>
-    <a href="https://trakteer.id/FajarKim/"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/donate_trakteer.png" alt="Trakteer.id Donate" width="165"></a>
+    <a href="https://github.com/sponsors/FajarKim/"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/donate_github.png" alt="GitHub Sponsor" width="250"></a>
+    <a href="https://paypal.me/agusbirawan/"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/donate_paypal.png" alt="PayPal Donate" width="250"></a>
+    <a href="https://trakteer.id/FajarKim/"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/donate_trakteer.png" alt="Trakteer.id Donate" width="250"></a>
 </div>

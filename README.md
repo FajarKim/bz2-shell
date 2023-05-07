@@ -26,7 +26,7 @@ BZip2 Shell Exec adalah sebuah alat yang bisa digunakan untuk mengompresi string
 ## Termux
 ### Cara 1
 - `$ pkg update -y && pkg upgrade -y`
-- `$ pkg install bzip2 lzma git -y`
+- `$ pkg install bzip2 xz-utils git -y`
 - `$ git clone https://github.com/FajarKim/bz2-shell`
 - `$ cd bz2-shell/tools/Termux`
 - `$ ./install.sh` atau `$ bash install.sh`
@@ -58,7 +58,7 @@ $ bash install.sh
 ## Linux
 ### Cara 1
 - `$ apt update -y && apt upgrade -y`
-- `$ apt install bzip2 lzma git -y`
+- `$ apt install bzip2 xz-utils git -y`
 - `$ git clone https://github.com/FajarKim/bz2-shell`
 - `$ cd bz2-shell/tools/Linux`
 - `$ ./install.sh` atau `$ bash install.sh`
@@ -130,6 +130,8 @@ atau
 ```text
 $ bzsh.sh --type-shell bash --file FILE1 FILE2 FILE3...
 ```
+### Catatan
+Semakin banyak jumlah baris dalam sebuah file, semakin lama waktu yang dibutuhkan untuk mengenkripsi.
 
 # Kontak
 Silahkan hubungi kontak saya dibawah ini jika ada masalah atau pertanyaan mengenai alat ini. Jangan lupa untuk follow ya!
@@ -150,7 +152,7 @@ Silahkan hubungi kontak saya dibawah ini jika ada masalah atau pertanyaan mengen
 # Donasi
 Bagi orang baik yang mau berdonasi untuk perkembangan dan kemajuan akun ini, bisa klik tautan di bawah ini! Saya berterima kasih banyak kepada yang mau berdonasi 😊😊😊
 <div align="left">
-    <a href="https://github.com/sponsors/FajarKim/"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/donate_github.png" alt="GitHub Sponsor" width="165"></a>
-    <a href="https://paypal.me/agusbirawan/"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/donate_paypal.png" alt="PayPal Donate" width="165"></a>
-    <a href="https://trakteer.id/FajarKim/"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/donate_trakteer.png" alt="Trakteer.id Donate" width="165"></a>
+    <a href="https://github.com/sponsors/FajarKim/"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/donate_github.png" alt="GitHub Sponsor" width="250"></a>
+    <a href="https://paypal.me/agusbirawan/"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/donate_paypal.png" alt="PayPal Donate" width="250"></a>
+    <a href="https://trakteer.id/FajarKim/"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/donate_trakteer.png" alt="Trakteer.id Donate" width="250"></a>
 </div>

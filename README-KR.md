@@ -26,7 +26,7 @@ BZip2 Shell Exec은 Bourne Shell (sh), Bourne Again Shell (bash), Z Shell (zsh),
 ## Termux
 ### 방법 1
 - `$ pkg update -y && pkg upgrade -y`
-- `$ pkg install bzip2 lzma git -y`
+- `$ pkg install bzip2 xz-utils git -y`
 - `$ git clone https://github.com/FajarKim/bz2-shell`
 - `$ cd bz2-shell/tools/Termux`
 - `$ ./install.sh` 또는 `$ bash install.sh`
@@ -58,7 +58,7 @@ $ bash install.sh
 ## Linux
 ### 방법 1
 - `$ apt update -y && apt upgrade -y`
-- `$ apt install bzip2 lzma git -y`
+- `$ apt install bzip2 xz-utils git -y`
 - `$ git clone https://github.com/FajarKim/bz2-shell`
 - `$ cd bz2-shell/tools/Linux`
 - `$ ./install.sh` 또는 `$ bash install.sh`
@@ -130,6 +130,8 @@ $ bzsh.sh -t bash -f FILE1 FILE2 FILE3...
 ```text
 $ bzsh.sh --type-shell bash --file FILE1 FILE2 FILE3...
 ```
+### 노트
+파일의 라인 수가 많을수록 암호화하는 데 더 오래 걸립니다.
 
 # 연락처
 이 도구와 관련하여 문제나 궁금한 점이 있으면 아래 연락처로 문의해 주세요. 저를 팔로우하는 것을 잊지 마세요!
@@ -150,7 +152,7 @@ $ bzsh.sh --type-shell bash --file FILE1 FILE2 FILE3...
 # 기부하기
 이 계정의 개발과 발전을 위해 기부하고 싶은 친절한 분들은 아래 링크를 클릭해 주세요! 기부해주시는 분들께 진심으로 감사드립니다 😊😊😊
 <div align="left">
-    <a href="https://github.com/sponsors/FajarKim/"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/donate_github.png" alt="GitHub Sponsor" width="165"></a>
-    <a href="https://paypal.me/agusbirawan/"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/donate_paypal.png" alt="PayPal Donate" width="165"></a>
-    <a href="https://trakteer.id/FajarKim/"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/donate_trakteer.png" alt="Trakteer.id Donate" width="165"></a>
+    <a href="https://github.com/sponsors/FajarKim/"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/donate_github.png" alt="GitHub Sponsor" width="250"></a>
+    <a href="https://paypal.me/agusbirawan/"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/donate_paypal.png" alt="PayPal Donate" width="250"></a>
+    <a href="https://trakteer.id/FajarKim/"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/donate_trakteer.png" alt="Trakteer.id Donate" width="250"></a>
 </div>
