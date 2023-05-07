@@ -1,7 +1,7 @@
 #!/bin/bash
 #
-# This script should be run via curl:
 # 1. In Termux:
+# This script should be run via curl:
 #   bash -c "$(curl -fsSL https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Termux/install.sh)"
 # or via wget:
 #   bash -c "$(wget -qO- https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Termux/install.sh)"
@@ -9,6 +9,7 @@
 #   bash -c "$(fetch -o - https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Termux/install.sh)"
 #
 # 2. In Linux:
+# This script should be run via curl:
 #   bash -c "$(curl -fsSL https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Linux/install.sh)"
 # or via wget:
 #   bash -c "$(wget -qO- https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Linux/install.sh)"
