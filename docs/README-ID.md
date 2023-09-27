@@ -143,6 +143,14 @@ Alat ini diprogram untuk bisa dijalankan dengan beberapa perintah. Perintah yang
         <td><div align="left">Informasi versi keluaran terbaru</div></td>
     </tr>
     <tr>
+        <td><div align="left"><code>--upgrade</code></div></td>
+        <td><div align="left">Tingkatkan versi alat ini</div></td>
+    </tr>
+    <tr>
+        <td><div align="left"><code>--uninstall</code></div></td>
+        <td><div align="left">Mencopot pemasangan alat ini</div></td>
+    </tr>
+    <tr>
         <td><div align="left"><code>-t</code> atau <code>--type-shell</code></div></td>
         <td><div align="left">Pilih jenis shell (sh, bash, zsh, ksh, atau mksh)</div></td>
     </tr>

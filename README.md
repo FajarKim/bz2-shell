@@ -143,6 +143,14 @@ This tool is programmed to be run with several commands. Supported commands:
         <td><div align="left">Output version information</div></td>
     </tr>
     <tr>
+        <td><div align="left"><code>--upgrade</code></div></td>
+        <td><div align="left">Upgrade version this tool</div></td>
+    </tr>
+    <tr>
+        <td><div align="left"><code>--uninstall</code></div></td>
+        <td><div align="left">Uninstall this tool</div></td>
+    </tr>
+    <tr>
         <td><div align="left"><code>-t</code> or <code>--type-shell</code></div></td>
         <td><div align="left">Select a type shell (sh, bash, zsh, ksh, or mksh)</div></td>
     </tr>

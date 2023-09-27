@@ -143,6 +143,14 @@ $ bash install.sh
         <td><div align="left">출력 버전 정보</div></td>
     </tr>
     <tr>
+        <td><div align="left"><code>--upgrade</code></div></td>
+        <td><div align="left">이 도구의 버전을 업그레이드하세요</div></td>
+    </tr>
+    <tr>
+        <td><div align="left"><code>--uninstall</code></div></td>
+        <td><div align="left">이 도구 제거</div></td>
+    </tr>
+    <tr>
         <td><div align="left"><code>-t</code> 또는 <code>--type-shell</code></div></td>
         <td><div align="left">셸 유형 선택 (sh, bash, zsh, ksh, 또는 mksh)</div></td>
     </tr>
