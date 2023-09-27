@@ -284,12 +284,12 @@ setup_bz2sh() {
     fmt_info "cannot create symbolic link $BZSH/bzsh.sh as $PATH/bzsh"
     exit 1
   }
-  ln -s "$BZSH/tools/Linux/upgrade.sh" "$PATH/bzsh-upgrade" >/dev/null 2>&1 || {
-    fmt_info "cannot create symbolic link $BZSH/tools/Linux/upgrade.sh as $PATH/bzsh-upgrade"
+  ln -s "$BZSH/tools/Linux/upgrade.sh" "$PATH/.bzsh-upgrade" >/dev/null 2>&1 || {
+    fmt_info "cannot create symbolic link $BZSH/tools/Linux/upgrade.sh as $PATH/.bzsh-upgrade"
     exit 1
   }
-  ln -s "$BZSH/tools/Linux/uninstall.sh" "$PATH/bzsh-uninstall" >/dev/null 2>&1 || {
-    fmt_info "cannot create symbolic link $BZSH/tools/Linux/uninstall.sh as $PATH/bzsh-uninstall"
+  ln -s "$BZSH/tools/Linux/uninstall.sh" "$PATH/.bzsh-uninstall" >/dev/null 2>&1 || {
+    fmt_info "cannot create symbolic link $BZSH/tools/Linux/uninstall.sh as $PATH/.bzsh-uninstall"
     exit 1
   }
 
