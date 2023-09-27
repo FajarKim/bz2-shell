@@ -1,0 +1,6 @@
+enhancement: bzsh.sh
+doc-translation: docs/*
+documentation: README.md
+tools-linux: tools/Linux/*
+tools-termux: tools/Termux/*
+ci: .github/workflows/*
