@@ -285,12 +285,12 @@ setup_bz2sh() {
     fmt_info "cannot create symbolic link $BZSH/bzsh.sh as $PATH/bzsh"
     exit 1
   }
-  ln -s "$BZSH/tools/Termux/upgrade.sh" "$PATH/bzsh-upgrade" >/dev/null 2>&1 || {
-    fmt_info "cannot create symbolic link $BZSH/tools/Termux/upgrade.sh as $PATH/bzsh-upgrade"
+  ln -s "$BZSH/tools/Termux/upgrade.sh" "$PATH/.bzsh-upgrade" >/dev/null 2>&1 || {
+    fmt_info "cannot create symbolic link $BZSH/tools/Termux/upgrade.sh as $PATH/.bzsh-upgrade"
     exit 1
   }
-  ln -s "$BZSH/tools/Termux/uninstall.sh" "$PATH/bzsh-uninstall" >/dev/null 2>&1 || {
-    fmt_info "cannot create symbolic link $BZSH/tools/Termux/uninstall.sh as $PATH/bzsh-uninstall"
+  ln -s "$BZSH/tools/Termux/uninstall.sh" "$PATH/.bzsh-uninstall" >/dev/null 2>&1 || {
+    fmt_info "cannot create symbolic link $BZSH/tools/Termux/uninstall.sh as $PATH/.bzsh-uninstall"
     exit 1
   }
 
