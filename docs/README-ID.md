@@ -1,9 +1,9 @@
 <div align="center">
   <img src="https://github.com/FajarKim/bz2-shell/assets/86386385/80ef91fe-8079-42f5-bc95-78eb60717792" alt="BZSH Logo" width="40%">
   <h3>BZip2 Shell Exec</h3>
-  <p>🛠️ Simple encryption Shell scripts to BZip2 format</p>
-  <p><a href="https://github.com/FajarKim/bz2-shell/issues/new?assignees=&labels=bug&projects=&template=bug_report.yml">Report Bug</a> · <a href="https://github.com/FajarKim/bz2-shell/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.yml">Request Feature</a> · <a href="https://github.com/FajarKim/bz2-shell/discussions/new?category=q-a">Ask Question</a></p>
-  <p><a href="/docs/README-ID.md">Indonesia</a> · <a href="/docs/README-KR.md">한국어</a></p>
+  <p>🛠️ Enkripsi sederhana skrip Shell ke format BZip2</p>
+  <p><a href="https://github.com/FajarKim/bz2-shell/issues/new?assignees=&labels=bug&projects=&template=bug_report.yml">Laporkan Bug</a> · <a href="https://github.com/FajarKim/bz2-shell/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.yml">Ajukan Fitur</a> · <a href="https://github.com/FajarKim/bz2-shell/discussions/new?category=q-a">Tanya Jawab</a></p>
+  <p><a href="/README.md">English</a> · <a href="/docs/README-KR.md">한국어</a></p>
 </div>
 <div align="center">
 
@@ -15,39 +15,39 @@
 [![Download](https://img.shields.io/github/languages/code-size/FajarKim/bz2-shell?label=Download%20.zip&labelColor=302d41&color=b7bdf8&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48cGF0aCBmaWxsPSIjRDlFMEVFIiBkPSJNNjQgMEMyOC43IDAgMCAyOC43IDAgNjRWNDQ4YzAgMzUuMyAyOC43IDY0IDY0IDY0SDMyMGMzNS4zIDAgNjQtMjguNyA2NC02NFYxNjBIMjU2Yy0xNy43IDAtMzItMTQuMy0zMi0zMlYwSDY0ek0yNTYgMFYxMjhIMzg0TDI1NiAwek05NiA0OGMwLTguOCA3LjItMTYgMTYtMTZoMzJjOC44IDAgMTYgNy4yIDE2IDE2cy03LjIgMTYtMTYgMTZIMTEyYy04LjggMC0xNi03LjItMTYtMTZ6bTAgNjRjMC04LjggNy4yLTE2IDE2LTE2aDMyYzguOCAwIDE2IDcuMiAxNiAxNnMtNy4yIDE2LTE2IDE2SDExMmMtOC44IDAtMTYtNy4yLTE2LTE2em0wIDY0YzAtOC44IDcuMi0xNiAxNi0xNmgzMmM4LjggMCAxNiA3LjIgMTYgMTZzLTcuMiAxNi0xNiAxNkgxMTJjLTguOCAwLTE2LTcuMi0xNi0xNnptLTYuMyA3MS44YzMuNy0xNCAxNi40LTIzLjggMzAuOS0yMy44aDE0LjhjMTQuNSAwIDI3LjIgOS43IDMwLjkgMjMuOGwyMy41IDg4LjJjMS40IDUuNCAyLjEgMTAuOSAyLjEgMTYuNGMwIDM1LjItMjguOCA2My43LTY0IDYzLjdzLTY0LTI4LjUtNjQtNjMuN2MwLTUuNSAuNy0xMS4xIDIuMS0xNi40bDIzLjUtODguMnpNMTEyIDMzNmMtOC44IDAtMTYgNy4yLTE2IDE2czcuMiAxNiAxNiAxNmgzMmM4LjggMCAxNi03LjIgMTYtMTZzLTcuMi0xNi0xNi0xNkgxMTJ6Ii8%2BPC9zdmc%2B&style=for-the-badge)](https://github.com/FajarKim/bz2-shell/archive/refs/heads/master.zip)
 </div>
 
-# Description
-BZip2 Shell Exec is a specially designed tool, where when run, this tool will encrypt or compress all shell file strings into BZip2 format without needing to worry about being recoded or taken by someone else. Files that have been encrypted will still be able to be executed with shell language commands. The types of shell languages ​​supported are Bourne Shell (sh), Bourne Again Shell (bash), Z Shell (zsh), Korn Shell (ksh), and MirBSD Korn Shell (mksh).
+# Deskripsi
+BZip2 Shell Exec ini merupakan alat yang dirancang khusus, dimana ketika dijalankan, alat ini akan mengenkripsi atau mengompres semua string file shell ke dalam format BZip2 tanpa perlu khawatir di*recode* atau diambil orang lain. File yang sudah dienkripsi akan tetap bisa dijalankan dengan perintah bahasa shell. Adapun jenis bahasa shell yang didukung adalah Bourne Shell (sh), Bourne Again Shell (bash), Z Shell (zsh), Korn Shell (ksh), dan MirBSD Korn Shell (mksh).
 
 > [!NOTE]
-> The more lines in a file, the longer it takes to encrypt.
+> Semakin banyak jumlah baris dalam sebuah file, semakin lama waktu yang dibutuhkan untuk mengenkripsi.
 
 > [!WARNING]
-> This tool may be incompatible or not supported on some Linuxes, such as on Ultrix.
+> Alat ini mungkin tidak kompitabel atau tidak didukung dibeberapa Linux, seperti di Ultrix.
 
-# Installation Instructions
+# Petunjuk Penginstalan
 ## Termux
-Here is how to install BZip2 Shell Exec in Termux app!
+Berikut ini adalah cara untuk menginstal BZip2 Shell Exec di aplikasi Termux!
 - `$ pkg update -y && pkg upgrade -y`
 - `$ pkg install git bzip2 xz-utils -y`
 - `$ git clone https://github.com/FajarKim/bz2-shell`
 - `$ cd bz2-shell`
 
-Then, run the file `bzsh.sh` to start encrypting the shell file.
+Kemudian, jalankan file `bzsh.sh` untuk mulai mengenkripsi file shell.
 - `$ bash bzsh.sh --help`
 
-If you want to install it to the `$PATH` folder, just run the `install.sh` file located in the `tools/Termux` folder.
+Jika Anda ingin menginstalnya ke folder `$PATH`, cukup jalankan file `install.sh` yang ada di folder `tools/Termux`.
 - `$ tools/Termux/install.sh`</br>
-or
+atau
 - `$ cd tools/Termux && bash install.sh`
 
-If installed successfully, run the command:
+Jika berhasil terinstal, jalankan perintah:
 - `$ bzsh --help`
 
-You can also use this method:
+Bisa juga dengan menggunakan cara ini:
 <table>
     <tr>
-        <td><div align="center"><b>Method</b></div></td>
-        <td><div align="center"><b>Command</b></div></td>
+        <td><div align="center"><b>Metode</b></div></td>
+        <td><div align="center"><b>Perintah</b></div></td>
     </tr>
     <tr>
         <td><div align="center"><b>curl</b></div></td>
@@ -69,35 +69,35 @@ You can also use this method:
     </tr>
 </table>
 
-As an alternative, you can first download the `install.sh` script and run it afterwards:
+Sebagai alternatif, Anda dapat mengunduh skrip `install.sh` terlebih dahulu dan menjalankannya setelah menginstalnya:
 ```text
 $ pkg install wget
 $ wget https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Termux/install.sh
 $ bash install.sh
 ```
 ## Linux
-Here is how to install BZip2 Shell Exec on Linux (like Ubuntu)!
+Berikut ini adalah cara untuk menginstall BZip2 Shell Exec di Linux (seperti Ubuntu)!
 - `$ pkg update -y && pkg upgrade -y`
 - `$ pkg install git bzip2 xz-utils -y`
 - `$ git clone https://github.com/FajarKim/bz2-shell`
 - `$ cd bz2-shell`
 
-Then, run the file `bzsh.sh` to start encrypting the shell file.
+Kemudian, jalankan file `bzsh.sh` untuk mulai mengenkripsi file shell.
 - `$ bash bzsh.sh --help`
 
-If you want to install it to the `$PATH` folder, just run the `install.sh` file located in the `tools/Linux` folder.
+Jika Anda ingin menginstalnya ke folder `$PATH`, cukup jalankan file `install.sh` yang ada di folder `tools/Linux`.
 - `$ tools/Linux/install.sh`</br>
-or
+atau
 - `$ cd tools/Linux && bash install.sh`
 
-If installed successfully, run the command:
+Jika berhasil terinstal, jalankan perintah:
 - `$ bzsh --help`
 
-You can also use this method:
+Bisa juga dengan menggunakan cara ini:
 <table>
     <tr>
-        <td><div align="center"><b>Method</b></div></td>
-        <td><div align="center"><b>Command</b></div></td>
+        <td><div align="center"><b>Metode</b></div></td>
+        <td><div align="center"><b>Perintah</b></div></td>
     </tr>
     <tr>
         <td><div align="center"><b>curl</b></div></td>
@@ -120,68 +120,68 @@ You can also use this method:
     </tr>
 </table>
 
-As an alternative, you can first download the `install.sh` script and run it afterwards:
+Sebagai alternatif, Anda dapat mengunduh skrip `install.sh` terlebih dahulu dan menjalankannya setelah menginstalnya:
 ```text
 $ apt install wget
 $ wget https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Linux/install.sh
 $ bash install.sh
 ```
 
-# Instructions for Use
-This tool is programmed to be run with several commands. Supported commands:
+# Petunjuk Penggunaan
+Alat ini diprogram untuk bisa dijalankan dengan beberapa perintah. Perintah yang didukung:
 <table>
     <tr>
-        <td><div align="center"><b>Command</b></div></td>
-        <td><div align="center"><b>Description</b></div></td>
+        <td><div align="center"><b>Perintah</b></div></td>
+        <td><div align="center"><b>Keterangan</b></div></td>
     </tr>
     <tr>
-        <td><div align="left"><code>-h</code> or <code>--help</code></div></td>
-        <td><div align="left">Display this help</div></td>
+        <td><div align="left"><code>-h</code> atau <code>--help</code></div></td>
+        <td><div align="left">Menampilkan bantuan untuk alat ini</div></td>
     </tr>
     <tr>
-        <td><div align="left"><code>-v</code> or <code>--version</code></div></td>
-        <td><div align="left">Output version information</div></td>
+        <td><div align="left"><code>-v</code> atau <code>--version</code></div></td>
+        <td><div align="left">Informasi versi keluaran terbaru</div></td>
     </tr>
     <tr>
-        <td><div align="left"><code>-t</code> or <code>--type-shell</code></div></td>
-        <td><div align="left">Select a type shell (sh, bash, zsh, ksh, or mksh)</div></td>
+        <td><div align="left"><code>-t</code> atau <code>--type-shell</code></div></td>
+        <td><div align="left">Pilih jenis shell (sh, bash, zsh, ksh, atau mksh)</div></td>
     </tr>
     <tr>
-        <td><div align="left"><code>-f</code> or <code>--file</code></div></td>
-        <td><div align="left">Compress each FILE instead it</div></td>
+        <td><div align="left"><code>-f</code> atau <code>--file</code></div></td>
+        <td><div align="left">Kompres setiap FILE sebagai gantinya</div></td>
     </tr>
 </table>
 
-How to run this tool:
-#### Example 1
+Cara menjalankan alat ini:
+#### Contoh 1
 ```text
 $ bzsh.sh -t bash -f FILE
 ```
-or
+atau
 ```text
 $ bzsh.sh --type-shell bash --file FILE
 ```
 #### Example 2
-If you want to encrypt more than 1 file at the same time, you can do that.
+Jika ingin mengenkripsi lebih dari 1 file dalam waktu yang sama, Anda bisa lakukan itu.
 ```text
 $ bzsh.sh -t bash -f FILE1 FILE2 FILE3 etc...
 ```
-or
+atau
 ```text
 $ bzsh.sh --type-shell bash --file FILE1 FILE2 FILE3 etc...
 ```
 
-## License
-BZip2 Shell Exec is released under the AGPL-3.0 license, which grants the following permissions:
-- Commercial use
-- Modification
-- Distribution
-- Patent use
-- Private use
+## Lisensi
+BZip2 Shell Exec dirilis di bawah lisensi AGPL-3.0, yang memberikan izin berikut:
+ - Penggunaan komersial
+ - Modifikasi
+ - Distribusi
+ - Penggunaan paten
+ - Penggunaan pribadi
 
-For more convoluted language, see the [LICENSE](LICENSE).
+Untuk bahasa yang lebih lanjut, lihat [LISENSI](LISENSI).
 
-### Social Media and Contact
+### Media Sosial dan Kontak
 <div align="center">
     <a href="https://facebook.com/fajarrkim"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/icons/facebook-icon.svg" alt="Facebook"></a>
     <a href="https://instagram.com/fajarkim_"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/icons/instagram-icon.svg" alt="Instagram"></a>
@@ -192,11 +192,11 @@ For more convoluted language, see the [LICENSE](LICENSE).
     <a href="https://youtube.com/@FajarHacker"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/icons/youtube-icon.svg" alt="YouTube"></a>
     <a href="https://m.me/fajarrkim"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/icons/messenger-icon.svg" alt="Messenger"></a>
     <a href="mailto:fajarrkim@gmail.com"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/icons/mail-icon.svg" alt="Email"></a>
-    <p>Follow my social media!</p>
+    <p>Ikuti media sosial saya!</p>
 </div>
 
-### Donate
-For those who would like to donate to the development and progress of this account, please click the link below! I thank you very much to those who want to donate 😊😊😊
+### Donasi
+Bagi orang baik yang mau berdonasi untuk perkembangan dan kemajuan akun ini, bisa klik tautan di bawah ini! Saya berterima kasih banyak kepada yang mau berdonasi 😊😊😊
 <div align="left">
     <a href="https://github.com/sponsors/FajarKim/"><img src="https://img.shields.io/badge/GitHub-Sponsor-blue?s&labelColor=302d41&color=f5bde6&logo=github&logoColor=d9e0ee&style=for-the-badge" alt="GitHub Sponsor"></a>
     <a href="https://paypal.me/agusbirawan/"><img src="https://img.shields.io/badge/PayPal-Donate-blue?s&labelColor=302d41&color=f4dbd6&logo=paypal&logoColor=d9e0ee&style=for-the-badge" alt="PayPal Donate"></a>
@@ -204,14 +204,14 @@ For those who would like to donate to the development and progress of this accou
     <a href="https://trakteer.id/FajarKim/"><img src="https://github.com/FajarKim/bz2-shell/assets/86386385/c1d4c7fe-90a4-4121-8ab7-2bfac61285f2" alt="Trakteer.id Donate"></a>
 </div>
 
-### Similar Repositories
-Free:
+### Repositori Serupa
+Gratis:
 - [LZip Shell Exec](https://github.com/FajarKim/lzip-shell)
 - [NCompress Shell Exec](https://github.com/FajarKim/nc-shell)
 - [PreZip Shell Exec](https://github.com/FajarKim/prz-shell)
 - [Blind Bash](https://github.com/FajarKim/blind-bash)
 
-Paid (For My Sponsor):
+Berbayar (Untuk Sponsor):
 - [GZip Shell Exec](https://github.com/FajarKim/gz-shell)
 - [Lzma Shell Exec](https://github.com/FajarKim/lz-shell)
 - [XZ Shell Exec](https://github.com/FajarKim/xz-shell)
@@ -221,8 +221,8 @@ Paid (For My Sponsor):
   <img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/line.svg?sanitize=true"/>
 </div>
 
-<p align="center">Made with ❤️ and Shell</p>
-<p align="center">Copyright © 2022-present Rangga Fajar Oktariansyah</p>
+<p align="center">Dibuat dengan ❤️ dan Shell</p>
+<p align="center">Copyright © 2022-sekarang Rangga Fajar Oktariansyah</p>
 <div align="center">
   <a href="LICENSE"><img src="https://img.shields.io/github/license/FajarKim/bz2-shell?label=License&labelColor=302d41&color=91d7e3&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48cGF0aCBmaWxsPSIjRDlFMEVFIiBkPSJNMzg0IDMySDUxMmMxNy43IDAgMzIgMTQuMyAzMiAzMnMtMTQuMyAzMi0zMiAzMkgzOTguNGMtNS4yIDI1LjgtMjIuOSA0Ny4xLTQ2LjQgNTcuM1Y0NDhINTEyYzE3LjcgMCAzMiAxNC4zIDMyIDMycy0xNC4zIDMyLTMyIDMySDMyMCAxMjhjLTE3LjcgMC0zMi0xNC4zLTMyLTMyczE0LjMtMzIgMzItMzJIMjg4VjE1My4zYy0yMy41LTEwLjMtNDEuMi0zMS42LTQ2LjQtNTcuM0gxMjhjLTE3LjcgMC0zMi0xNC4zLTMyLTMyczE0LjMtMzIgMzItMzJIMjU2YzE0LjYtMTkuNCAzNy44LTMyIDY0LTMyczQ5LjQgMTIuNiA2NCAzMnptNTUuNiAyODhINTg0LjRMNTEyIDE5NS44IDQzOS42IDMyMHpNNTEyIDQxNmMtNjIuOSAwLTExNS4yLTM0LTEyNi03OC45Yy0yLjYtMTEgMS0yMi4zIDYuNy0zMi4xbDk1LjItMTYzLjJjNS04LjYgMTQuMi0xMy44IDI0LjEtMTMuOHMxOS4xIDUuMyAyNC4xIDEzLjhsOTUuMiAxNjMuMmM1LjcgOS44IDkuMyAyMS4xIDYuNyAzMi4xQzYyNy4yIDM4MiA1NzQuOSA0MTYgNTEyIDQxNnpNMTI2LjggMTk1LjhMNTQuNCAzMjBIMTk5LjNMMTI2LjggMTk1Ljh6TS45IDMzNy4xYy0yLjYtMTEgMS0yMi4zIDYuNy0zMi4xbDk1LjItMTYzLjJjNS04LjYgMTQuMi0xMy44IDI0LjEtMTMuOHMxOS4xIDUuMyAyNC4xIDEzLjhsOTUuMiAxNjMuMmM1LjcgOS44IDkuMyAyMS4xIDYuNyAzMi4xQzI0MiAzODIgMTg5LjcgNDE2IDEyNi44IDQxNlMxMS43IDM4MiAuOSAzMzcuMXoiLz48L3N2Zz4%3D&style=for-the-badge" alt="License"></a>
 </div>

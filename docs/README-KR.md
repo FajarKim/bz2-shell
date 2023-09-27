@@ -1,9 +1,9 @@
 <div align="center">
   <img src="https://github.com/FajarKim/bz2-shell/assets/86386385/80ef91fe-8079-42f5-bc95-78eb60717792" alt="BZSH Logo" width="40%">
   <h3>BZip2 Shell Exec</h3>
-  <p>🛠️ Simple encryption Shell scripts to BZip2 format</p>
-  <p><a href="https://github.com/FajarKim/bz2-shell/issues/new?assignees=&labels=bug&projects=&template=bug_report.yml">Report Bug</a> · <a href="https://github.com/FajarKim/bz2-shell/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.yml">Request Feature</a> · <a href="https://github.com/FajarKim/bz2-shell/discussions/new?category=q-a">Ask Question</a></p>
-  <p><a href="/docs/README-ID.md">Indonesia</a> · <a href="/docs/README-KR.md">한국어</a></p>
+  <p>🛠️ BZip2 형식의 간단한 암호화 Shell 스크립트</p>
+  <p><a href="https://github.com/FajarKim/bz2-shell/issues/new?assignees=&labels=bug&projects=&template=bug_report.yml">버그를 제보하기</a> · <a href="https://github.com/FajarKim/bz2-shell/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.yml">기능 요청</a> · <a href="https://github.com/FajarKim/bz2-shell/discussions/new?category=q-a">물어보다</a></p>
+  <p><a href="/README.md">English</a> · <a href="/docs/README-ID.md">Indonesia</a></p>
 </div>
 <div align="center">
 
@@ -15,39 +15,39 @@
 [![Download](https://img.shields.io/github/languages/code-size/FajarKim/bz2-shell?label=Download%20.zip&labelColor=302d41&color=b7bdf8&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48cGF0aCBmaWxsPSIjRDlFMEVFIiBkPSJNNjQgMEMyOC43IDAgMCAyOC43IDAgNjRWNDQ4YzAgMzUuMyAyOC43IDY0IDY0IDY0SDMyMGMzNS4zIDAgNjQtMjguNyA2NC02NFYxNjBIMjU2Yy0xNy43IDAtMzItMTQuMy0zMi0zMlYwSDY0ek0yNTYgMFYxMjhIMzg0TDI1NiAwek05NiA0OGMwLTguOCA3LjItMTYgMTYtMTZoMzJjOC44IDAgMTYgNy4yIDE2IDE2cy03LjIgMTYtMTYgMTZIMTEyYy04LjggMC0xNi03LjItMTYtMTZ6bTAgNjRjMC04LjggNy4yLTE2IDE2LTE2aDMyYzguOCAwIDE2IDcuMiAxNiAxNnMtNy4yIDE2LTE2IDE2SDExMmMtOC44IDAtMTYtNy4yLTE2LTE2em0wIDY0YzAtOC44IDcuMi0xNiAxNi0xNmgzMmM4LjggMCAxNiA3LjIgMTYgMTZzLTcuMiAxNi0xNiAxNkgxMTJjLTguOCAwLTE2LTcuMi0xNi0xNnptLTYuMyA3MS44YzMuNy0xNCAxNi40LTIzLjggMzAuOS0yMy44aDE0LjhjMTQuNSAwIDI3LjIgOS43IDMwLjkgMjMuOGwyMy41IDg4LjJjMS40IDUuNCAyLjEgMTAuOSAyLjEgMTYuNGMwIDM1LjItMjguOCA2My43LTY0IDYzLjdzLTY0LTI4LjUtNjQtNjMuN2MwLTUuNSAuNy0xMS4xIDIuMS0xNi40bDIzLjUtODguMnpNMTEyIDMzNmMtOC44IDAtMTYgNy4yLTE2IDE2czcuMiAxNiAxNiAxNmgzMmM4LjggMCAxNi03LjIgMTYtMTZzLTcuMi0xNi0xNi0xNkgxMTJ6Ii8%2BPC9zdmc%2B&style=for-the-badge)](https://github.com/FajarKim/bz2-shell/archive/refs/heads/master.zip)
 </div>
 
-# Description
-BZip2 Shell Exec is a specially designed tool, where when run, this tool will encrypt or compress all shell file strings into BZip2 format without needing to worry about being recoded or taken by someone else. Files that have been encrypted will still be able to be executed with shell language commands. The types of shell languages ​​supported are Bourne Shell (sh), Bourne Again Shell (bash), Z Shell (zsh), Korn Shell (ksh), and MirBSD Korn Shell (mksh).
+# 설명
+BZip2 Shell Exec은 특별히 설계된 도구로, 이 도구를 실행하면 다른 사람이 다시 코딩하거나 가져갈 염려 없이 모든 셸 파일 문자열을 BZip2 형식으로 암호화하거나 압축합니다. 암호화된 파일은 여전히 ​​셸 언어 명령으로 실행될 수 있습니다. 지원되는 쉘 언어의 종류는 Bourne Shell(sh), Bourne Again Shell(bash), Z Shell(zsh), Korn Shell(ksh), MirBSD Korn Shell(mksh)입니다.
 
 > [!NOTE]
-> The more lines in a file, the longer it takes to encrypt.
+> 파일에 줄이 많을수록 암호화하는 데 시간이 더 오래 걸립니다.
 
 > [!WARNING]
-> This tool may be incompatible or not supported on some Linuxes, such as on Ultrix.
+> 이 도구는 Ultrix와 같은 일부 Linux에서 호환되지 않거나 지원되지 않을 수 있습니다.
 
-# Installation Instructions
+# 설치 지침
 ## Termux
-Here is how to install BZip2 Shell Exec in Termux app!
+Termux 앱에 BZip2 Shell Exec을 설치하는 방법은 다음과 같습니다!
 - `$ pkg update -y && pkg upgrade -y`
 - `$ pkg install git bzip2 xz-utils -y`
 - `$ git clone https://github.com/FajarKim/bz2-shell`
 - `$ cd bz2-shell`
 
-Then, run the file `bzsh.sh` to start encrypting the shell file.
+그런 다음 `bzsh.sh` 파일을 실행하여 셸 파일 암호화를 시작합니다.
 - `$ bash bzsh.sh --help`
 
-If you want to install it to the `$PATH` folder, just run the `install.sh` file located in the `tools/Termux` folder.
+`$PATH` 폴더에 설치하려면 `tools/Termux` 폴더에 있는 `install.sh` 파일을 실행하세요.
 - `$ tools/Termux/install.sh`</br>
-or
+또는
 - `$ cd tools/Termux && bash install.sh`
 
-If installed successfully, run the command:
+성공적으로 설치되면 다음 명령을 실행합니다:
 - `$ bzsh --help`
 
-You can also use this method:
+다음 방법을 사용할 수도 있습니다:
 <table>
     <tr>
-        <td><div align="center"><b>Method</b></div></td>
-        <td><div align="center"><b>Command</b></div></td>
+        <td><div align="center"><b>메소드</b></div></td>
+        <td><div align="center"><b>명령어</b></div></td>
     </tr>
     <tr>
         <td><div align="center"><b>curl</b></div></td>
@@ -69,35 +69,35 @@ You can also use this method:
     </tr>
 </table>
 
-As an alternative, you can first download the `install.sh` script and run it afterwards:
+또는 먼저 `install.sh` 스크립트를 다운로드한 후 실행할 수 있습니다:
 ```text
 $ pkg install wget
 $ wget https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Termux/install.sh
 $ bash install.sh
 ```
 ## Linux
-Here is how to install BZip2 Shell Exec on Linux (like Ubuntu)!
+Linux(예 Ubuntu)에 BZip2 Shell Exec을 설치하는 방법은 다음과 같습니다!
 - `$ pkg update -y && pkg upgrade -y`
 - `$ pkg install git bzip2 xz-utils -y`
 - `$ git clone https://github.com/FajarKim/bz2-shell`
 - `$ cd bz2-shell`
 
-Then, run the file `bzsh.sh` to start encrypting the shell file.
+그런 다음 `bzsh.sh` 파일을 실행하여 셸 파일 암호화를 시작합니다.
 - `$ bash bzsh.sh --help`
 
-If you want to install it to the `$PATH` folder, just run the `install.sh` file located in the `tools/Linux` folder.
+`$PATH` 폴더에 설치하려면 `tools/Linux` 폴더에 있는 `install.sh` 파일을 실행하세요.
 - `$ tools/Linux/install.sh`</br>
-or
+또는
 - `$ cd tools/Linux && bash install.sh`
 
-If installed successfully, run the command:
+성공적으로 설치되면 다음 명령을 실행합니다:
 - `$ bzsh --help`
 
-You can also use this method:
+다음 방법을 사용할 수도 있습니다:
 <table>
     <tr>
-        <td><div align="center"><b>Method</b></div></td>
-        <td><div align="center"><b>Command</b></div></td>
+        <td><div align="center"><b>메소드</b></div></td>
+        <td><div align="center"><b>명령어</b></div></td>
     </tr>
     <tr>
         <td><div align="center"><b>curl</b></div></td>
@@ -120,68 +120,68 @@ You can also use this method:
     </tr>
 </table>
 
-As an alternative, you can first download the `install.sh` script and run it afterwards:
+또는 먼저 `install.sh` 스크립트를 다운로드한 후 실행할 수 있습니다:
 ```text
 $ apt install wget
 $ wget https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Linux/install.sh
 $ bash install.sh
 ```
 
-# Instructions for Use
-This tool is programmed to be run with several commands. Supported commands:
+# 사용 지침
+이 도구는 여러 명령으로 실행되도록 프로그래밍되어 있습니다. 지원되는 명령:
 <table>
     <tr>
-        <td><div align="center"><b>Command</b></div></td>
-        <td><div align="center"><b>Description</b></div></td>
+        <td><div align="center"><b>명령어</b></div></td>
+        <td><div align="center"><b>설명</b></div></td>
     </tr>
     <tr>
-        <td><div align="left"><code>-h</code> or <code>--help</code></div></td>
-        <td><div align="left">Display this help</div></td>
+        <td><div align="left"><code>-h</code> 또는 <code>--help</code></div></td>
+        <td><div align="left">이 도움말 표시</div></td>
     </tr>
     <tr>
-        <td><div align="left"><code>-v</code> or <code>--version</code></div></td>
-        <td><div align="left">Output version information</div></td>
+        <td><div align="left"><code>-v</code> 또는 <code>--version</code></div></td>
+        <td><div align="left">출력 버전 정보</div></td>
     </tr>
     <tr>
-        <td><div align="left"><code>-t</code> or <code>--type-shell</code></div></td>
-        <td><div align="left">Select a type shell (sh, bash, zsh, ksh, or mksh)</div></td>
+        <td><div align="left"><code>-t</code> 또는 <code>--type-shell</code></div></td>
+        <td><div align="left">셸 유형 선택 (sh, bash, zsh, ksh, 또는 mksh)</div></td>
     </tr>
     <tr>
-        <td><div align="left"><code>-f</code> or <code>--file</code></div></td>
-        <td><div align="left">Compress each FILE instead it</div></td>
+        <td><div align="left"><code>-f</code> 또는 <code>--file</code></div></td>
+        <td><div align="left">대신 각 FILE 을 압축합니다</div></td>
     </tr>
 </table>
 
-How to run this tool:
-#### Example 1
+이 도구를 실행하는 방법:
+#### 예제 1
 ```text
 $ bzsh.sh -t bash -f FILE
 ```
-or
+또는
 ```text
 $ bzsh.sh --type-shell bash --file FILE
 ```
-#### Example 2
-If you want to encrypt more than 1 file at the same time, you can do that.
+#### 예제 2
+동시에 2개 이상의 파일을 암호화하고 싶다면 그렇게 할 수 있습니다.
 ```text
 $ bzsh.sh -t bash -f FILE1 FILE2 FILE3 etc...
 ```
-or
+또는
 ```text
 $ bzsh.sh --type-shell bash --file FILE1 FILE2 FILE3 etc...
 ```
 
-## License
-BZip2 Shell Exec is released under the AGPL-3.0 license, which grants the following permissions:
-- Commercial use
-- Modification
-- Distribution
-- Patent use
-- Private use
+## 특허
+BZip2 Shell Exec은 다음 권한을 부여하는 AGPL-3.0 라이선스에 따라 출시됩니다.
+ - 상업적 사용
+ - 수정
+ - 분포
+ - 특허사용
+ - 개인적인 사용
 
-For more convoluted language, see the [LICENSE](LICENSE).
+ 더 복잡한 언어에 대해서는 [LICENSE](LICENSE)를 참조하세요.
 
-### Social Media and Contact
+### 소셜 미디어 및 연락처
 <div align="center">
     <a href="https://facebook.com/fajarrkim"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/icons/facebook-icon.svg" alt="Facebook"></a>
     <a href="https://instagram.com/fajarkim_"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/icons/instagram-icon.svg" alt="Instagram"></a>
@@ -192,11 +192,11 @@ For more convoluted language, see the [LICENSE](LICENSE).
     <a href="https://youtube.com/@FajarHacker"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/icons/youtube-icon.svg" alt="YouTube"></a>
     <a href="https://m.me/fajarrkim"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/icons/messenger-icon.svg" alt="Messenger"></a>
     <a href="mailto:fajarrkim@gmail.com"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/icons/mail-icon.svg" alt="Email"></a>
-    <p>Follow my social media!</p>
+    <p>내 소셜 미디어를 팔로우하세요!</p>
 </div>
 
-### Donate
-For those who would like to donate to the development and progress of this account, please click the link below! I thank you very much to those who want to donate 😊😊😊
+### 기부하기
+이 계정의 개발과 발전을 위해 기부하고 싶은 친절한 분들은 아래 링크를 클릭해 주세요! 기부해주시는 분들께 진심으로 감사드립니다 😊😊😊
 <div align="left">
     <a href="https://github.com/sponsors/FajarKim/"><img src="https://img.shields.io/badge/GitHub-Sponsor-blue?s&labelColor=302d41&color=f5bde6&logo=github&logoColor=d9e0ee&style=for-the-badge" alt="GitHub Sponsor"></a>
     <a href="https://paypal.me/agusbirawan/"><img src="https://img.shields.io/badge/PayPal-Donate-blue?s&labelColor=302d41&color=f4dbd6&logo=paypal&logoColor=d9e0ee&style=for-the-badge" alt="PayPal Donate"></a>
@@ -204,14 +204,14 @@ For those who would like to donate to the development and progress of this accou
     <a href="https://trakteer.id/FajarKim/"><img src="https://github.com/FajarKim/bz2-shell/assets/86386385/c1d4c7fe-90a4-4121-8ab7-2bfac61285f2" alt="Trakteer.id Donate"></a>
 </div>
 
-### Similar Repositories
-Free:
+### 유사한 저장소
+무료:
 - [LZip Shell Exec](https://github.com/FajarKim/lzip-shell)
 - [NCompress Shell Exec](https://github.com/FajarKim/nc-shell)
 - [PreZip Shell Exec](https://github.com/FajarKim/prz-shell)
 - [Blind Bash](https://github.com/FajarKim/blind-bash)
 
-Paid (For My Sponsor):
+유급의 (후원자용):
 - [GZip Shell Exec](https://github.com/FajarKim/gz-shell)
 - [Lzma Shell Exec](https://github.com/FajarKim/lz-shell)
 - [XZ Shell Exec](https://github.com/FajarKim/xz-shell)
@@ -221,8 +221,8 @@ Paid (For My Sponsor):
   <img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/line.svg?sanitize=true"/>
 </div>
 
-<p align="center">Made with ❤️ and Shell</p>
-<p align="center">Copyright © 2022-present Rangga Fajar Oktariansyah</p>
+<p align="center">❤️과 Shell로 제작</p>
+<p align="center">Copyright © 2022-현재의 Rangga Fajar Oktariansyah</p>
 <div align="center">
   <a href="LICENSE"><img src="https://img.shields.io/github/license/FajarKim/bz2-shell?label=License&labelColor=302d41&color=91d7e3&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48cGF0aCBmaWxsPSIjRDlFMEVFIiBkPSJNMzg0IDMySDUxMmMxNy43IDAgMzIgMTQuMyAzMiAzMnMtMTQuMyAzMi0zMiAzMkgzOTguNGMtNS4yIDI1LjgtMjIuOSA0Ny4xLTQ2LjQgNTcuM1Y0NDhINTEyYzE3LjcgMCAzMiAxNC4zIDMyIDMycy0xNC4zIDMyLTMyIDMySDMyMCAxMjhjLTE3LjcgMC0zMi0xNC4zLTMyLTMyczE0LjMtMzIgMzItMzJIMjg4VjE1My4zYy0yMy41LTEwLjMtNDEuMi0zMS42LTQ2LjQtNTcuM0gxMjhjLTE3LjcgMC0zMi0xNC4zLTMyLTMyczE0LjMtMzIgMzItMzJIMjU2YzE0LjYtMTkuNCAzNy44LTMyIDY0LTMyczQ5LjQgMTIuNiA2NCAzMnptNTUuNiAyODhINTg0LjRMNTEyIDE5NS44IDQzOS42IDMyMHpNNTEyIDQxNmMtNjIuOSAwLTExNS4yLTM0LTEyNi03OC45Yy0yLjYtMTEgMS0yMi4zIDYuNy0zMi4xbDk1LjItMTYzLjJjNS04LjYgMTQuMi0xMy44IDI0LjEtMTMuOHMxOS4xIDUuMyAyNC4xIDEzLjhsOTUuMiAxNjMuMmM1LjcgOS44IDkuMyAyMS4xIDYuNyAzMi4xQzYyNy4yIDM4MiA1NzQuOSA0MTYgNTEyIDQxNnpNMTI2LjggMTk1LjhMNTQuNCAzMjBIMTk5LjNMMTI2LjggMTk1Ljh6TS45IDMzNy4xYy0yLjYtMTEgMS0yMi4zIDYuNy0zMi4xbDk1LjItMTYzLjJjNS04LjYgMTQuMi0xMy44IDI0LjEtMTMuOHMxOS4xIDUuMyAyNC4xIDEzLjhsOTUuMiAxNjMuMmM1LjcgOS44IDkuMyAyMS4xIDYuNyAzMi4xQzI0MiAzODIgMTg5LjcgNDE2IDEyNi44IDQxNlMxMS43IDM4MiAuOSAzMzcuMXoiLz48L3N2Zz4%3D&style=for-the-badge" alt="License"></a>
 </div>
