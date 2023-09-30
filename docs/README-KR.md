@@ -228,7 +228,7 @@ BZip2 Shell Exec은 다음 권한을 부여하는 AGPL-3.0 라이선스에 따�
  - 특허사용
  - 개인적인 사용
 
- 더 복잡한 언어에 대해서는 [LICENSE](LICENSE)를 참조하세요.
+ 더 복잡한 언어에 대해서는 [LICENSE](/LICENSE)를 참조하세요.
 
 ### 소셜 미디어 및 연락처
 <div align="center">

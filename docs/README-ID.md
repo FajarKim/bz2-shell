@@ -228,7 +228,7 @@ BZip2 Shell Exec dirilis di bawah lisensi AGPL-3.0, yang memberikan izin berikut
  - Penggunaan paten
  - Penggunaan pribadi
 
-Untuk bahasa yang lebih lanjut, lihat [LISENSI](LISENSI).
+Untuk bahasa yang lebih lanjut, lihat [LISENSI](/LISENSI).
 
 ### Media Sosial dan Kontak
 <div align="center">
