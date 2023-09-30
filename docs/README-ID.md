@@ -27,21 +27,37 @@ BZip2 Shell Exec ini merupakan alat yang dirancang khusus, dimana ketika dijalan
 # Petunjuk Penginstalan
 ## Termux
 Berikut ini adalah cara untuk menginstal BZip2 Shell Exec di aplikasi Termux!
-- `$ pkg update -y && pkg upgrade -y`
-- `$ pkg install git bzip2 xz-utils -y`
-- `$ git clone https://github.com/FajarKim/bz2-shell`
-- `$ cd bz2-shell`
+- ```shell
+  pkg update -y && pkg upgrade -y
+  ```
+- ```shell
+  pkg install git bzip2 xz-utils -y
+  ```
+- ```shell
+  git clone https://github.com/FajarKim/bz2-shell
+  ```
+- ```shell
+  cd bz2-shell
+  ```
 
 Kemudian, jalankan file `bzsh.sh` untuk mulai mengenkripsi file shell.
-- `$ bash bzsh.sh --help`
+- ```shell
+  bash bzsh.sh --help
+  ```
 
 Jika Anda ingin menginstalnya ke folder `$PATH`, cukup jalankan file `install.sh` yang ada di folder `tools/Termux`.
-- `$ tools/Termux/install.sh`</br>
-atau
-- `$ cd tools/Termux && bash install.sh`
+- ```shell
+  tools/Termux/install.sh
+  ```
+  atau
+- ```shell
+  cd tools/Termux && bash install.sh
+  ```
 
 Jika berhasil terinstal, jalankan perintah:
-- `$ bzsh --help`
+- ```shell
+  bzsh --help
+  ```
 
 Bisa juga dengan menggunakan cara ini:
 <table>
@@ -52,46 +68,67 @@ Bisa juga dengan menggunakan cara ini:
     <tr>
         <td><div align="center"><b>curl</b></div></td>
         <td><div align="left">
-          <pre><code>$ pkg install curl</code></pre>
-          <pre><code>$ bash -c "$(curl -fsSL https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Termux/install.sh)"</code></pre></div></td>
+          <pre class="language-shell"><code>pkg install curl</code></pre>
+          <pre class="language-shell"><code>bash -c "$(curl -fsSL https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Termux/install.sh)"</code></pre></div></td>
     </tr>
     <tr>
         <td><div align="center"><b>wget</b></div></td>
         <td><div align="left">
-          <pre><code>$ pkg install wget</code></pre>
-          <pre><code>$ bash -c "$(wget -qO- https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Termux/install.sh)"</code></pre></div></td>
+          <pre class="language-shell"><code>pkg install wget</code></pre>
+          <pre class="language-shell"><code>bash -c "$(wget -qO- https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Termux/install.sh)"</code></pre></div></td>
     </tr>
     <tr>
         <td><div align="center"><b>fetch</b></div></td>
         <td><div align="left">
-          <pre><code>$ pkg install fetch</code></pre>
-          <pre><code>$ bash -c "$(fetch -o - https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Termux/install.sh)"</code></pre></div></td>
+          <pre class="language-shell"><code>pkg install fetch</code></pre>
+          <pre class="language-shell"><code>bash -c "$(fetch -o - https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Termux/install.sh)"</code></pre></div></td>
     </tr>
 </table>
 
 Sebagai alternatif, Anda dapat mengunduh skrip `install.sh` terlebih dahulu dan menjalankannya setelah menginstalnya:
-```text
-$ pkg install wget
-$ wget https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Termux/install.sh
-$ bash install.sh
-```
+- ```shell
+  pkg install wget
+  ```
+- ```shell
+  wget https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Termux/install.sh
+  ```
+- ```shell
+  bash install.sh
+  ```
+
 ## Linux
 Berikut ini adalah cara untuk menginstall BZip2 Shell Exec di Linux (seperti Ubuntu)!
-- `$ pkg update -y && pkg upgrade -y`
-- `$ pkg install git bzip2 xz-utils -y`
-- `$ git clone https://github.com/FajarKim/bz2-shell`
-- `$ cd bz2-shell`
+- ```shell
+  apt update -y && apt upgrade -y
+  ```
+- ```shell
+  apt install git bzip2 xz-utils -y
+  ```
+- ```shell
+  git clone https://github.com/FajarKim/bz2-shell
+  ```
+- ```shell
+  cd bz2-shell
+  ```
 
 Kemudian, jalankan file `bzsh.sh` untuk mulai mengenkripsi file shell.
-- `$ bash bzsh.sh --help`
+- ```shell
+  bash bzsh.sh --help
+  ```
 
 Jika Anda ingin menginstalnya ke folder `$PATH`, cukup jalankan file `install.sh` yang ada di folder `tools/Linux`.
-- `$ tools/Linux/install.sh`</br>
-atau
-- `$ cd tools/Linux && bash install.sh`
+- ```shell
+  tools/Linux/install.sh
+  ```
+  atau
+- ```shell
+  cd tools/Linux && bash install.sh
+  ```
 
 Jika berhasil terinstal, jalankan perintah:
-- `$ bzsh --help`
+- ```shell
+  bzsh --help
+  ```
 
 Bisa juga dengan menggunakan cara ini:
 <table>
@@ -102,30 +139,34 @@ Bisa juga dengan menggunakan cara ini:
     <tr>
         <td><div align="center"><b>curl</b></div></td>
         <td><div align="left">
-          <pre><code>$ apt install curl</code></pre>
-          <pre><code>$ bash -c "$(curl -fsSL https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Linux/install.sh)"</code></pre>
+          <pre class="language-shell"><code>apt install curl</code></pre>
+          <pre class="language-shell"><code>bash -c "$(curl -fsSL https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Linux/install.sh)"</code></pre>
         </div></td>
     </tr>
     <tr>
         <td><div align="center"><b>wget</b></div></td>
         <td><div align="left">
-          <pre><code>$ apt install wget</code></pre>
-          <pre><code>$ bash -c "$(wget -qO- https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Linux/install.sh)"</code></pre></div></td>
+          <pre class="language-shell"><code>apt install wget</code></pre>
+          <pre class="language-shell"><code>bash -c "$(wget -qO- https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Linux/install.sh)"</code></pre></div></td>
     </tr>
     <tr>
         <td><div align="center"><b>fetch</b></div></td>
         <td><div align="left">
-          <pre><code>$ apt install fetch</code></pre>
-          <pre><code>$ bash -c "$(fetch -o - https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Linux/install.sh)"</code></pre></div></td>
+          <pre class="language-shell"><code>apt install fetch</code></pre>
+          <pre class="language-shell"><code>bash -c "$(fetch -o - https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Linux/install.sh)"</code></pre></div></td>
     </tr>
 </table>
 
 Sebagai alternatif, Anda dapat mengunduh skrip `install.sh` terlebih dahulu dan menjalankannya setelah menginstalnya:
-```text
-$ apt install wget
-$ wget https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Linux/install.sh
-$ bash install.sh
-```
+- ```shell
+  apt install wget
+  ```
+- ```shell
+  wget https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Linux/install.sh
+  ```
+- ```shell
+  bash install.sh
+  ```
 
 # Petunjuk Penggunaan
 Alat ini diprogram untuk bisa dijalankan dengan beberapa perintah. Perintah yang didukung:
@@ -162,21 +203,21 @@ Alat ini diprogram untuk bisa dijalankan dengan beberapa perintah. Perintah yang
 
 Cara menjalankan alat ini:
 #### Contoh 1
-```text
-$ bzsh.sh -t bash -f FILE
+```shell
+bzsh.sh -t bash -f FILE
 ```
 atau
-```text
-$ bzsh.sh --type-shell bash --file FILE
+```shell
+bzsh.sh --type-shell bash --file FILE
 ```
 #### Example 2
 Jika ingin mengenkripsi lebih dari 1 file dalam waktu yang sama, Anda bisa lakukan itu.
-```text
-$ bzsh.sh -t bash -f FILE1 FILE2 FILE3 etc...
+```shell
+bzsh.sh -t bash -f FILE1 FILE2 FILE3 etc...
 ```
 atau
-```text
-$ bzsh.sh --type-shell bash --file FILE1 FILE2 FILE3 etc...
+```shell
+bzsh.sh --type-shell bash --file FILE1 FILE2 FILE3 etc...
 ```
 
 ## Lisensi
@@ -204,13 +245,17 @@ Untuk bahasa yang lebih lanjut, lihat [LISENSI](LISENSI).
 </div>
 
 ### Donasi
-Bagi orang baik yang mau berdonasi untuk perkembangan dan kemajuan akun ini, bisa klik tautan di bawah ini! Saya berterima kasih banyak kepada yang mau berdonasi 😊😊😊
+Suka proyek ini? Harap pertimbangkan untuk berdonasi untuk membantu meningkatkannya.
 <div align="left">
     <a href="https://github.com/sponsors/FajarKim/"><img src="https://img.shields.io/badge/GitHub-Sponsor-blue?s&labelColor=302d41&color=f5bde6&logo=github&logoColor=d9e0ee&style=for-the-badge" alt="GitHub Sponsor"></a>
     <a href="https://paypal.me/agusbirawan/"><img src="https://img.shields.io/badge/PayPal-Donate-blue?s&labelColor=302d41&color=f4dbd6&logo=paypal&logoColor=d9e0ee&style=for-the-badge" alt="PayPal Donate"></a>
     <a href="https://buymeacoffee.com/fajarkim/"><img src="https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Donate-blue?s&labelColor=302d41&color=eed49f&logo=buymeacoffee&logoColor=d9e0ee&style=for-the-badge" alt="Buy Me a Coffee"></a>
     <a href="https://trakteer.id/FajarKim/"><img src="https://github.com/FajarKim/bz2-shell/assets/86386385/c1d4c7fe-90a4-4121-8ab7-2bfac61285f2" alt="Trakteer.id Donate"></a>
 </div>
+
+Apakah Anda mempertimbangkan untuk mendukung proyek ini dengan menyumbang kepada saya? TOLONG JANGAN!!
+
+Silakan kunjungi [tautan ini](https://fajarkim.github.io/donate) dan berikan donasi kecil untuk membantu orang-orang yang membutuhkan. Sumbangan kecil akan sangat bermanfaat. ❤️
 
 ### Repositori Serupa
 Gratis:

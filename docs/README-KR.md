@@ -27,21 +27,37 @@ BZip2 Shell Exec은 특별히 설계된 도구로, 이 도구를 실행하면 �
 # 설치 지침
 ## Termux
 Termux 앱에 BZip2 Shell Exec을 설치하는 방법은 다음과 같습니다!
-- `$ pkg update -y && pkg upgrade -y`
-- `$ pkg install git bzip2 xz-utils -y`
-- `$ git clone https://github.com/FajarKim/bz2-shell`
-- `$ cd bz2-shell`
+- ```shell
+  pkg update -y && pkg upgrade -y
+  ```
+- ```shell
+  pkg install git bzip2 xz-utils -y
+  ```
+- ```shell
+  git clone https://github.com/FajarKim/bz2-shell
+  ```
+- ```shell
+  cd bz2-shell
+  ```
 
 그런 다음 `bzsh.sh` 파일을 실행하여 셸 파일 암호화를 시작합니다.
-- `$ bash bzsh.sh --help`
+- ```shell
+  bash bzsh.sh --help
+  ```
 
 `$PATH` 폴더에 설치하려면 `tools/Termux` 폴더에 있는 `install.sh` 파일을 실행하세요.
-- `$ tools/Termux/install.sh`</br>
-또는
-- `$ cd tools/Termux && bash install.sh`
+- ```shell
+  tools/Termux/install.sh
+  ```
+  또는
+- ```shell
+  cd tools/Termux && bash install.sh
+  ```
 
 성공적으로 설치되면 다음 명령을 실행합니다:
-- `$ bzsh --help`
+- ```shell
+  bzsh --help
+  ```
 
 다음 방법을 사용할 수도 있습니다:
 <table>
@@ -52,46 +68,67 @@ Termux 앱에 BZip2 Shell Exec을 설치하는 방법은 다음과 같습니다!
     <tr>
         <td><div align="center"><b>curl</b></div></td>
         <td><div align="left">
-          <pre><code>$ pkg install curl</code></pre>
-          <pre><code>$ bash -c "$(curl -fsSL https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Termux/install.sh)"</code></pre></div></td>
+          <pre class="language-shell"><code>pkg install curl</code></pre>
+          <pre class="language-shell"><code>bash -c "$(curl -fsSL https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Termux/install.sh)"</code></pre></div></td>
     </tr>
     <tr>
         <td><div align="center"><b>wget</b></div></td>
         <td><div align="left">
-          <pre><code>$ pkg install wget</code></pre>
-          <pre><code>$ bash -c "$(wget -qO- https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Termux/install.sh)"</code></pre></div></td>
+          <pre class="language-shell"><code>pkg install wget</code></pre>
+          <pre class="language-shell"><code>bash -c "$(wget -qO- https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Termux/install.sh)"</code></pre></div></td>
     </tr>
     <tr>
         <td><div align="center"><b>fetch</b></div></td>
         <td><div align="left">
-          <pre><code>$ pkg install fetch</code></pre>
-          <pre><code>$ bash -c "$(fetch -o - https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Termux/install.sh)"</code></pre></div></td>
+          <pre class="language-shell"><code>pkg install fetch</code></pre>
+          <pre class="language-shell"><code>bash -c "$(fetch -o - https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Termux/install.sh)"</code></pre></div></td>
     </tr>
 </table>
 
 또는 먼저 `install.sh` 스크립트를 다운로드한 후 실행할 수 있습니다:
-```text
-$ pkg install wget
-$ wget https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Termux/install.sh
-$ bash install.sh
-```
+- ```shell
+  pkg install wget
+  ```
+- ```shell
+  wget https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Termux/install.sh
+  ```
+- ```shell
+  bash install.sh
+  ```
+
 ## Linux
 Linux(예 Ubuntu)에 BZip2 Shell Exec을 설치하는 방법은 다음과 같습니다!
-- `$ pkg update -y && pkg upgrade -y`
-- `$ pkg install git bzip2 xz-utils -y`
-- `$ git clone https://github.com/FajarKim/bz2-shell`
-- `$ cd bz2-shell`
+- ```shell
+  apt update -y && apt upgrade -y
+  ```
+- ```shell
+  apt install git bzip2 xz-utils -y
+  ```
+- ```shell
+  git clone https://github.com/FajarKim/bz2-shell
+  ```
+- ```shell
+  cd bz2-shell
+  ```
 
 그런 다음 `bzsh.sh` 파일을 실행하여 셸 파일 암호화를 시작합니다.
-- `$ bash bzsh.sh --help`
+- ```shell
+  bash bzsh.sh --help
+  ```
 
 `$PATH` 폴더에 설치하려면 `tools/Linux` 폴더에 있는 `install.sh` 파일을 실행하세요.
-- `$ tools/Linux/install.sh`</br>
-또는
-- `$ cd tools/Linux && bash install.sh`
+- ```shell
+  tools/Linux/install.sh
+  ```
+  또는
+- ```shell
+  cd tools/Linux && bash install.sh
+  ```
 
 성공적으로 설치되면 다음 명령을 실행합니다:
-- `$ bzsh --help`
+- ```shell
+  bzsh --help
+  ```
 
 다음 방법을 사용할 수도 있습니다:
 <table>
@@ -102,30 +139,34 @@ Linux(예 Ubuntu)에 BZip2 Shell Exec을 설치하는 방법은 다음과 같습
     <tr>
         <td><div align="center"><b>curl</b></div></td>
         <td><div align="left">
-          <pre><code>$ apt install curl</code></pre>
-          <pre><code>$ bash -c "$(curl -fsSL https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Linux/install.sh)"</code></pre>
+          <pre class="language-shell"><code>apt install curl</code></pre>
+          <pre class="language-shell"><code>bash -c "$(curl -fsSL https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Linux/install.sh)"</code></pre>
         </div></td>
     </tr>
     <tr>
         <td><div align="center"><b>wget</b></div></td>
         <td><div align="left">
-          <pre><code>$ apt install wget</code></pre>
-          <pre><code>$ bash -c "$(wget -qO- https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Linux/install.sh)"</code></pre></div></td>
+          <pre class="language-shell"><code>apt install wget</code></pre>
+          <pre class="language-shell"><code>bash -c "$(wget -qO- https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Linux/install.sh)"</code></pre></div></td>
     </tr>
     <tr>
         <td><div align="center"><b>fetch</b></div></td>
         <td><div align="left">
-          <pre><code>$ apt install fetch</code></pre>
-          <pre><code>$ bash -c "$(fetch -o - https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Linux/install.sh)"</code></pre></div></td>
+          <pre class="language-shell"><code>apt install fetch</code></pre>
+          <pre class="language-shell"><code>bash -c "$(fetch -o - https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Linux/install.sh)"</code></pre></div></td>
     </tr>
 </table>
 
 또는 먼저 `install.sh` 스크립트를 다운로드한 후 실행할 수 있습니다:
-```text
-$ apt install wget
-$ wget https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Linux/install.sh
-$ bash install.sh
-```
+- ```shell
+  apt install wget
+  ```
+- ```shell
+  wget https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Linux/install.sh
+  ```
+- ```shell
+  bash install.sh
+  ```
 
 # 사용 지침
 이 도구는 여러 명령으로 실행되도록 프로그래밍되어 있습니다. 지원되는 명령:
@@ -162,21 +203,21 @@ $ bash install.sh
 
 이 도구를 실행하는 방법:
 #### 예제 1
-```text
-$ bzsh.sh -t bash -f FILE
+```shell
+bzsh.sh -t bash -f FILE
 ```
 또는
-```text
-$ bzsh.sh --type-shell bash --file FILE
+```shell
+bzsh.sh --type-shell bash --file FILE
 ```
 #### 예제 2
 동시에 2개 이상의 파일을 암호화하고 싶다면 그렇게 할 수 있습니다.
-```text
-$ bzsh.sh -t bash -f FILE1 FILE2 FILE3 etc...
+```shell
+bzsh.sh -t bash -f FILE1 FILE2 FILE3 etc...
 ```
 또는
-```text
-$ bzsh.sh --type-shell bash --file FILE1 FILE2 FILE3 etc...
+```shell
+bzsh.sh --type-shell bash --file FILE1 FILE2 FILE3 etc...
 ```
 
 ## 특허
@@ -204,13 +245,17 @@ BZip2 Shell Exec은 다음 권한을 부여하는 AGPL-3.0 라이선스에 따�
 </div>
 
 ### 기부하기
-이 계정의 개발과 발전을 위해 기부하고 싶은 친절한 분들은 아래 링크를 클릭해 주세요! 기부해주시는 분들께 진심으로 감사드립니다 😊😊😊
+프로젝트가 마음에 드시나요? 개선을 위해 기부하는 것을 고려해 보세요!
 <div align="left">
     <a href="https://github.com/sponsors/FajarKim/"><img src="https://img.shields.io/badge/GitHub-Sponsor-blue?s&labelColor=302d41&color=f5bde6&logo=github&logoColor=d9e0ee&style=for-the-badge" alt="GitHub Sponsor"></a>
     <a href="https://paypal.me/agusbirawan/"><img src="https://img.shields.io/badge/PayPal-Donate-blue?s&labelColor=302d41&color=f4dbd6&logo=paypal&logoColor=d9e0ee&style=for-the-badge" alt="PayPal Donate"></a>
     <a href="https://buymeacoffee.com/fajarkim/"><img src="https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Donate-blue?s&labelColor=302d41&color=eed49f&logo=buymeacoffee&logoColor=d9e0ee&style=for-the-badge" alt="Buy Me a Coffee"></a>
     <a href="https://trakteer.id/FajarKim/"><img src="https://github.com/FajarKim/bz2-shell/assets/86386385/c1d4c7fe-90a4-4121-8ab7-2bfac61285f2" alt="Trakteer.id Donate"></a>
 </div>
+
+나에게 기부하여 프로젝트를 지원하는 것을 고려하고 계십니까? 이러지마 제발!!
+
+[이 링크](https://fajarkim.github.io/donate)를 방문하여 도움이 필요한 사람들을 돕기 위해 소액을 기부해 주세요. 작은 기부가 큰 도움이 됩니다. ❤️
 
 ### 유사한 저장소
 무료:

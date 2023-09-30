@@ -27,21 +27,37 @@ BZip2 Shell Exec is a specially designed tool, where when run, this tool will en
 # Installation Instructions
 ## Termux
 Here is how to install BZip2 Shell Exec in Termux app!
-- `$ pkg update -y && pkg upgrade -y`
-- `$ pkg install git bzip2 xz-utils -y`
-- `$ git clone https://github.com/FajarKim/bz2-shell`
-- `$ cd bz2-shell`
+- ```shell
+  pkg update -y && pkg upgrade -y
+  ```
+- ```shell
+  pkg install git bzip2 xz-utils -y
+  ```
+- ```shell
+  git clone https://github.com/FajarKim/bz2-shell
+  ```
+- ```shell
+  cd bz2-shell
+  ```
 
 Then, run the file `bzsh.sh` to start encrypting the shell file.
-- `$ bash bzsh.sh --help`
+- ```shell
+  bash bzsh.sh --help
+  ```
 
 If you want to install it to the `$PATH` folder, just run the `install.sh` file located in the `tools/Termux` folder.
-- `$ tools/Termux/install.sh`</br>
-or
-- `$ cd tools/Termux && bash install.sh`
+- ```shell
+  tools/Termux/install.sh
+  ```
+  or
+- ```shell
+  cd tools/Termux && bash install.sh
+  ```
 
 If installed successfully, run the command:
-- `$ bzsh --help`
+- ```shell
+  bzsh --help
+  ```
 
 You can also use this method:
 <table>
@@ -52,46 +68,67 @@ You can also use this method:
     <tr>
         <td><div align="center"><b>curl</b></div></td>
         <td><div align="left">
-          <pre><code>$ pkg install curl</code></pre>
-          <pre><code>$ bash -c "$(curl -fsSL https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Termux/install.sh)"</code></pre></div></td>
+          <pre class="language-shell"><code>pkg install curl</code></pre>
+          <pre class="language-shell"><code>bash -c "$(curl -fsSL https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Termux/install.sh)"</code></pre></div></td>
     </tr>
     <tr>
         <td><div align="center"><b>wget</b></div></td>
         <td><div align="left">
-          <pre><code>$ pkg install wget</code></pre>
-          <pre><code>$ bash -c "$(wget -qO- https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Termux/install.sh)"</code></pre></div></td>
+          <pre class="language-shell"><code>pkg install wget</code></pre>
+          <pre class="language-shell"><code>bash -c "$(wget -qO- https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Termux/install.sh)"</code></pre></div></td>
     </tr>
     <tr>
         <td><div align="center"><b>fetch</b></div></td>
         <td><div align="left">
-          <pre><code>$ pkg install fetch</code></pre>
-          <pre><code>$ bash -c "$(fetch -o - https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Termux/install.sh)"</code></pre></div></td>
+          <pre class="language-shell"><code>pkg install fetch</code></pre>
+          <pre class="language-shell"><code>bash -c "$(fetch -o - https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Termux/install.sh)"</code></pre></div></td>
     </tr>
 </table>
 
 As an alternative, you can first download the `install.sh` script and run it afterwards:
-```text
-$ pkg install wget
-$ wget https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Termux/install.sh
-$ bash install.sh
-```
+- ```shell
+  pkg install wget
+  ```
+- ```shell
+  wget https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Termux/install.sh
+  ```
+- ```shell
+  bash install.sh
+  ```
+
 ## Linux
 Here is how to install BZip2 Shell Exec on Linux (like Ubuntu)!
-- `$ pkg update -y && pkg upgrade -y`
-- `$ pkg install git bzip2 xz-utils -y`
-- `$ git clone https://github.com/FajarKim/bz2-shell`
-- `$ cd bz2-shell`
+- ```shell
+  apt update -y && apt upgrade -y
+  ```
+- ```shell
+  apt install git bzip2 xz-utils -y
+  ```
+- ```shell
+  git clone https://github.com/FajarKim/bz2-shell
+  ```
+- ```shell
+  cd bz2-shell
+  ```
 
 Then, run the file `bzsh.sh` to start encrypting the shell file.
-- `$ bash bzsh.sh --help`
+- ```shell
+  bash bzsh.sh --help
+  ```
 
 If you want to install it to the `$PATH` folder, just run the `install.sh` file located in the `tools/Linux` folder.
-- `$ tools/Linux/install.sh`</br>
-or
-- `$ cd tools/Linux && bash install.sh`
+- ```shell
+  tools/Linux/install.sh
+  ```
+  or
+- ```shell
+  cd tools/Linux && bash install.sh
+  ```
 
 If installed successfully, run the command:
-- `$ bzsh --help`
+- ```shell
+  bzsh --help
+  ```
 
 You can also use this method:
 <table>
@@ -102,30 +139,34 @@ You can also use this method:
     <tr>
         <td><div align="center"><b>curl</b></div></td>
         <td><div align="left">
-          <pre><code>$ apt install curl</code></pre>
-          <pre><code>$ bash -c "$(curl -fsSL https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Linux/install.sh)"</code></pre>
+          <pre class="language-shell"><code>apt install curl</code></pre>
+          <pre class="language-shell"><code>bash -c "$(curl -fsSL https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Linux/install.sh)"</code></pre>
         </div></td>
     </tr>
     <tr>
         <td><div align="center"><b>wget</b></div></td>
         <td><div align="left">
-          <pre><code>$ apt install wget</code></pre>
-          <pre><code>$ bash -c "$(wget -qO- https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Linux/install.sh)"</code></pre></div></td>
+          <pre class="language-shell"><code>apt install wget</code></pre>
+          <pre class="language-shell"><code>bash -c "$(wget -qO- https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Linux/install.sh)"</code></pre></div></td>
     </tr>
     <tr>
         <td><div align="center"><b>fetch</b></div></td>
         <td><div align="left">
-          <pre><code>$ apt install fetch</code></pre>
-          <pre><code>$ bash -c "$(fetch -o - https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Linux/install.sh)"</code></pre></div></td>
+          <pre class="language-shell"><code>apt install fetch</code></pre>
+          <pre class="language-shell"><code>bash -c "$(fetch -o - https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Linux/install.sh)"</code></pre></div></td>
     </tr>
 </table>
 
 As an alternative, you can first download the `install.sh` script and run it afterwards:
-```text
-$ apt install wget
-$ wget https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Linux/install.sh
-$ bash install.sh
-```
+- ```shell
+  apt install wget
+  ```
+- ```shell
+  wget https://raw.githubusercontent.com/FajarKim/bz2-shell/master/tools/Linux/install.sh
+  ```
+- ```shell
+  bash install.sh
+  ```
 
 # Instructions for Use
 This tool is programmed to be run with several commands. Supported commands:
@@ -162,21 +203,21 @@ This tool is programmed to be run with several commands. Supported commands:
 
 How to run this tool:
 #### Example 1
-```text
-$ bzsh.sh -t bash -f FILE
+```shell
+bzsh.sh -t bash -f FILE
 ```
 or
-```text
-$ bzsh.sh --type-shell bash --file FILE
+```shell
+bzsh.sh --type-shell bash --file FILE
 ```
 #### Example 2
 If you want to encrypt more than 1 file at the same time, you can do that.
-```text
-$ bzsh.sh -t bash -f FILE1 FILE2 FILE3 etc...
+```shell
+bzsh.sh -t bash -f FILE1 FILE2 FILE3 etc...
 ```
 or
-```text
-$ bzsh.sh --type-shell bash --file FILE1 FILE2 FILE3 etc...
+```shell
+bzsh.sh --type-shell bash --file FILE1 FILE2 FILE3 etc...
 ```
 
 ## License
@@ -204,13 +245,17 @@ For more convoluted language, see the [LICENSE](LICENSE).
 </div>
 
 ### Donate
-For those who would like to donate to the development and progress of this account, please click the link below! I thank you very much to those who want to donate 😊😊😊
+Love the project? Please consider donating to help it improve!
 <div align="left">
     <a href="https://github.com/sponsors/FajarKim/"><img src="https://img.shields.io/badge/GitHub-Sponsor-blue?s&labelColor=302d41&color=f5bde6&logo=github&logoColor=d9e0ee&style=for-the-badge" alt="GitHub Sponsor"></a>
     <a href="https://paypal.me/agusbirawan/"><img src="https://img.shields.io/badge/PayPal-Donate-blue?s&labelColor=302d41&color=f4dbd6&logo=paypal&logoColor=d9e0ee&style=for-the-badge" alt="PayPal Donate"></a>
     <a href="https://buymeacoffee.com/fajarkim/"><img src="https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Donate-blue?s&labelColor=302d41&color=eed49f&logo=buymeacoffee&logoColor=d9e0ee&style=for-the-badge" alt="Buy Me a Coffee"></a>
     <a href="https://trakteer.id/FajarKim/"><img src="https://github.com/FajarKim/bz2-shell/assets/86386385/c1d4c7fe-90a4-4121-8ab7-2bfac61285f2" alt="Trakteer.id Donate"></a>
 </div>
+
+Are you considering supporting the project by donating to me? Please DO NOT!!
+
+Please visit [this link](https://fajarkim.github.io/donate) and make a small donation to help the people in need. A small donation goes a long way. ❤️
 
 ### Similar Repositories
 Free:
