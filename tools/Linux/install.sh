@@ -28,6 +28,7 @@
 set -e
 
 # Make sure important variables exist if not already defined
+#
 # $USER is defined by login(1) which is not always executed (e.g. containers)
 # POSIX: https://pubs.opengroup.org/onlinepubs/009695299/utilities/id.html
 USER=${USER:-$(id -u -n)}
@@ -38,18 +39,18 @@ HOME="${HOME:-$(getent passwd $USER 2>/dev/null | cut -d: -f6)}"
 # macOS does not have getent, but this works even if $HOME is unset
 HOME="${HOME:-$(eval echo ~$USER)}"
 
-# Test directory 'cache'
-test -d "$HOME/.cache" && test -w "$HOME/.cache" && test -x "$HOME/.cache" || {
-  mkdir "$HOME/.cache" >/dev/null 2>&1
+# Check directory $HOME/.config. If it doesn't exist, a folder will be created.
+test -d "$HOME/.config" && test -w "$HOME/.config" && test -x "$HOME/.config" || {
+  mkdir "$HOME/.config" >/dev/null 2>&1
 }
 
-# Test directory '$PATH'
+# Check directory $PATH.
 test -d "$PATH" && test -w "$PATH" && test -x "$PATH" || {
-  PATH=$(command -v 'bash' | sed 's|/bash||g')
+  PATH=$(dirname `command -v "bash"`)
 }
 
 # Default settings
-BZSH="${BZSH:-$HOME/.cache/.bz2-shell}"
+BZSH="${BZSH:-$HOME/.config/.bz2-shell}"
 REPO=${REPO:-FajarKim/bz2-shell}
 REMOTE=${REMOTE:-https://github.com/${REPO}.git}
 BRANCH=${BRANCH:-master}

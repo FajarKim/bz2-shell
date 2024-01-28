@@ -27,30 +27,25 @@
 #
 set -e
 
-# Make sure important variables exist if not already defined
-# $USER is defined by login(1) which is not always executed (e.g. containers)
-# POSIX: https://pubs.opengroup.org/onlinepubs/009695299/utilities/id.html
-USER=${USER:-$(id -u -n)}
-
-# Test directory '/data/data/com.termux/files/usr'
+# Check directory /data/data/com.termux/files/usr.
 test -d "$PREFIX" && test -w "$PREFIX" && test -x "$PREFIX" || test -d /data/data/com.termux/files/usr && test -w /data/data/com.termux/files/usr && test -x /data/data/com.termux/files/usr || {
   mkdir "/data/data/com.termux/files/usr" >/dev/null 2>&1
 }
 
 PREFIX=/data/data/com.termux/files/usr
 
-# Test directory '/data/data/com.termux/files/usr/shared'
-test -d "$PREFIX/shared" && test -w "$PREFIX/shared" && test -x "$PREFIX/shared" || {
-  mkdir "$PREFIX/shared" >/dev/null 2>&1
+# Check directory /data/data/com.termux/files/usr/lib.
+test -d "$PREFIX/lib" && test -w "$PREFIX/lib" && test -x "$PREFIX/lib" || {
+  mkdir "$PREFIX/lib" >/dev/null 2>&1
 }
 
-# Test directory '$PATH'
+# Check directory $PATH.
 test -d "$PATH" && test -w "$PATH" && test -x "$PATH" || {
-  PATH=$(command -v 'bash' | sed 's|/bash||g')
+  PATH=$(dirname `command -v "bash"`)
 }
 
 # Default settings
-BZSH="${BZSH:-$PREFIX/shared/bz2-shell}"
+BZSH="${BZSH:-$PREFIX/lib/bz2-shell}"
 REPO=${REPO:-FajarKim/bz2-shell}
 REMOTE=${REMOTE:-https://github.com/${REPO}.git}
 BRANCH=${BRANCH:-master}
