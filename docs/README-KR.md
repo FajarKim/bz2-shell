@@ -31,7 +31,7 @@ Termux 앱에 BZip2 Shell Exec을 설치하는 방법은 다음과 같습니다!
   pkg update -y && pkg upgrade -y
   ```
 - ```shell
-  pkg install git bzip2 xz-utils -y
+  pkg install git bzip2 xz-utils curl -y
   ```
 - ```shell
   git clone https://github.com/FajarKim/bz2-shell
@@ -102,7 +102,7 @@ Linux(예 Ubuntu)에 BZip2 Shell Exec을 설치하는 방법은 다음과 같습
   apt update -y && apt upgrade -y
   ```
 - ```shell
-  apt install git bzip2 xz-utils -y
+  apt install git bzip2 xz-utils curl -y
   ```
 - ```shell
   git clone https://github.com/FajarKim/bz2-shell

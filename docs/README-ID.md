@@ -31,7 +31,7 @@ Berikut ini adalah cara untuk menginstal BZip2 Shell Exec di aplikasi Termux!
   pkg update -y && pkg upgrade -y
   ```
 - ```shell
-  pkg install git bzip2 xz-utils -y
+  pkg install git bzip2 xz-utils curl -y
   ```
 - ```shell
   git clone https://github.com/FajarKim/bz2-shell
@@ -102,7 +102,7 @@ Berikut ini adalah cara untuk menginstall BZip2 Shell Exec di Linux (seperti Ubu
   apt update -y && apt upgrade -y
   ```
 - ```shell
-  apt install git bzip2 xz-utils -y
+  apt install git bzip2 xz-utils curl -y
   ```
 - ```shell
   git clone https://github.com/FajarKim/bz2-shell
